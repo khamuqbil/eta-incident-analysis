@@ -1,0 +1,3 @@
+agent_type,count,mean,median,p95,max
+eta_agent,4587,13.267,11.737,36.308,115.895
+eta_iagent,121,10.159,13.136,13.335,13.978

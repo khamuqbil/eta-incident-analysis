@@ -1,0 +1,13 @@
+{
+  "dataset": "cleaned_eta_logs.csv",
+  "sha256": "b7c4fe3646d472cf92b9221abd54302fb82712f5969e9dabb942b2f459dabacd",
+  "generated_at": "2025-11-10 12:07:12.975896",
+  "artifacts": [
+    "artifact_verification_case.json",
+    "artifact_baseline_by_agent.csv",
+    "artifact_peak_by_agent.csv",
+    "artifact_peak_top_pid.csv",
+    "artifact_anomalous_minutes.csv",
+    "artifact_top50_outliers.csv"
+  ]
+}
