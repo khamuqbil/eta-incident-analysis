@@ -1,0 +1,26 @@
+{
+  "analysis_input": {
+    "path": "datasets/cleaned_eta_logs.csv",
+    "sha256": "b7c4fe3646d472cf92b9221abd54302fb82712f5969e9dabb942b2f459dabacd"
+  },
+  "raw_sources": [
+    {
+      "path": "datasets/time.txt",
+      "sha256": "1fcd364de88fe5b50e05351ff5db760896a9a39ad5093cc7fdbbf77a710da395"
+    },
+    {
+      "path": "datasets/time6.txt",
+      "sha256": "8bcb160b30e128f3e88fa7deea267ef08e9bf09b606b271b48cc84d49e151c55"
+    }
+  ],
+  "notes": {
+    "transformations": [
+      "Cleaning (duplicate removal, normalization)",
+      "Time ordering (sorting by timestamp)"
+    ],
+    "caveats": [
+      "Hash is byte-exact; ordering/line endings will change the fingerprint.",
+      "For authenticity, use a signing step in CI/CD."
+    ]
+  }
+}
