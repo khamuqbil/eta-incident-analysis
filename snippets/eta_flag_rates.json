@@ -1,8 +1,0 @@
-{
-  "flag_rates": {
-    "is_slow": 0.021721264840124915,
-    "is_very_slow": 0.007307852780903493,
-    "is_critical": 0.0013338727826735614
-  },
-  "p99_slow_flag_coverage": 1.0
-}
